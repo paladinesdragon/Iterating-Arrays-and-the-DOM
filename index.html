@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <setion>
+      <h2>Current Talents</h2>
+        <p><b>Using for loop and adding checkboxes:</b><br><span id="current"></span></p>
+        <p><b>Using <em>array.values()</em>:</b> <span id="current1"></span></p>
+        <p><b>Using traditional for loop:</b> <span id="current2"></span></p>
+        <p><b>Using <em>array.join</em>:</b> <span id="current3"></span></p>
+        <p><b>Using only the DOM:</b> <span id="current4"></span></p>
+    </section>
+    <section>
+      <h1>Add New Talent</h1>
+        <label for="talent">Talent:</label>
+        <input id="talent" type="text" />
+        <button onclick="addTalent()">Add</button>
+        <p id="newtalent"></p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
